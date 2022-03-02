@@ -1,0 +1,32 @@
+.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5%;
+    width: 94%;
+    margin: auto;
+    z-index: 99;
+    margin-top: -120px;
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid #DEDFE3;
+    border-radius: 15px;
+    height: 200px;
+}
+
+.card svg{
+    font-size: 70px;
+    margin-top: 40px;
+    color: #E98728;
+}
+
+.card span{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
